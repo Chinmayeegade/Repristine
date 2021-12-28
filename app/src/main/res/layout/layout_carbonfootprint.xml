@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90EE90"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pic_8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Carbon Footprint Calculator"
+            android:textColor="#100"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="How many members are there in your house?"
+                android:textAlignment="center"
+                android:textColor="#100"
+                android:textColorHint="#100"
+                android:textSize="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/k"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="How often do you consume domestic meat in a week?"
+                android:textAlignment="center"
+                android:textColor="#100"
+                android:textColorHint="#100"
+                android:textSize="10dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="How many furniture articles and electronics do you purchase per year?"
+                android:textAlignment="center"
+                android:textColor="#100"
+                android:textColorHint="#100"
+                android:textSize="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/g"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="How many waste articles do you recycle?"
+                android:textAlignment="center"
+                android:textColor="#100"
+                android:textColorHint="#100"
+                android:textSize="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/q"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="How many trash cans do you fill up per week?"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#100"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/h"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="How many trash cans do you fill up per week?"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="#6bfff7"
+                android:textColorHint="#100"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/j"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="How many times a week do you run a dishwasher or a washing machine?"
+                android:textAlignment="center"
+                android:textColor="#100"
+                android:textColorHint="#100"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/u"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="What is the average size of your house?"
+                android:textAlignment="center"
+                android:textColor="#100"
+                android:textColorHint="#100"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="252dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:text="Calculate"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

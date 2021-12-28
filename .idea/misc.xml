@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/activity_datbase.xml" value="0.1" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/fragment_message_receiver.xml" value="0.22" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/fragment_message_sender.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout.xml" value="0.1" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_answers.xml" value="0.22" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_articles.xml" value="0.4025670945157526" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_carbonfootprint.xml" value="0.4025670945157526" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_collage.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_document.xml" value="0.15985997666277713" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_home.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_profile.xml" value="0.1796875" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_question.xml" value="0.17969661610268378" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_recycle.xml" value="0.5" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_reuse.xml" value="0.1640625" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_settings.xml" value="0.240625" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_stats.xml" value="0.240625" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_tips.xml" value="0.22" />
+        <entry key="..\:/Users/Chinmayee Gade/StudioProjects/Final_App/app/src/main/res/layout/layout_tracker.xml" value="0.1640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

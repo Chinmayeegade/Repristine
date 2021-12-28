@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#90EE90"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pic_8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Answers"
+            android:textColor="#100"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="What are Carbon Emissions?"
+            android:textColor="#100"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Answered by XXXXXX on 25/12/2021"
+            android:textColor="#100"
+            android:layout_gravity="left"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="When we talk about carbon emissions, we’re focusing specifically on carbon dioxide, or CO2. Naturally, CO2 releases into the atmosphere in a ton of ways. The largest source of natural carbon emissions is from the exchange of carbon dioxide between the oceans and the atmosphere. Animals and plants also emit CO2 through the process of respiration (breathe in oxygen, breathe out CO2). And, when these plants and animals decompose, organisms within the soil respire to produce energy and emit more CO2 into the atmosphere.
+
+Nature, as nature tends to do, keeps most of these emissions in balance. Plants absorb CO2 through photosynthesis, and oceans absorb just about as much carbon dioxide as they let off. Carbon cycles through our air, water, and soil in a continuous process that supports life on earth. Humans don’t play by the same rules that nature does. When we extract, refine, transport, and burn fossil fuels like coal, natural gas, and oil, we release extra carbon and other greenhouse gasses into the atmosphere. We also cut down large expanses of CO2-absorbing trees to make way for agriculture and new developments, or collect lumber to create new products. When these trees burn or decompose, they emit even more CO2. By removing forests, we also effectively remove the natural systems that absorb and store carbon.
+
+When we add additional CO2 to the mix, nature can’t always pick up the slack."
+            android:textColor="#100"
+            android:textSize="10dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Upvote this Answer" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Answer this Question" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

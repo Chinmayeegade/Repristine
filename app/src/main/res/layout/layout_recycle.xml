@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90EE90">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#90EE90"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pic_8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#100"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Recycling Centers Near Me"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="10dp"
+                    android:text="Center Name: 🏠"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Location:📍"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Articles Accepted:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Timings:⏰"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="10dp"
+                    android:text="Method of Recycle/disposal:"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Contact Number:📱"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Center Name: 🏠"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Location:📍"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Articles Accepted:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Timings:⏰"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Method of Recycle/disposal:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Contact Number:📱"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="10dp"
+                    android:text="Center Name: 🏠"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Location:📍"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Articles Accepted:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Timings:⏰"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Method of Recycle/disposal:"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Contact Number:📱"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Center Name: 🏠"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Location:📍"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Articles Accepted:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Timings:⏰"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Method of Recycle/disposal:"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Contact Number:📱"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="10dp"
+                    android:text="Center Name: 🏠"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Location:📍"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Articles Accepted:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Timings:⏰"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Method of Recycle/disposal:"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="15dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Center Name: 🏠"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Location:📍"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Articles Accepted:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Timings:⏰"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:text="Method of Recycle/disposal:"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#90EE90"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pic_8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Questions"
+            android:textColor="#100"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:hint="Ask Away!"
+            android:textAlignment="center"
+            android:textColor="#100"
+            android:textColorHint="#100" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Tags #"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#6bfff7"
+            android:textColorHint="#100" />
+
+        <Button
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Post" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Explore Answered Questions"
+            android:textColor="#100"
+            android:textSize="20dp" />
+
+
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="What are carbon emissions?" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="How do I reuse a broken flowerpot?" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Is there a GOODWILL near Chandigarh?" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="What rate are glaciers melting at?" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="What species are currently endangered?" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="What if the ozone layer cracks?" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
