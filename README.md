@@ -130,6 +130,14 @@ The attributes, details, and display of each model is given below
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+## Navigation
+- The application uses a Navigation Graph (Jetpack Library) to feasibly navigate between all the pages.
+- Via the Nagigation page, accessing any desired page is simply a click away.
+
+![Screenshot (570)](https://user-images.githubusercontent.com/96294811/147872098-e5f5f2dc-03c2-4ba6-bfa0-7c1243da1b1f.png)
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 ## Database for Info Storage
 - A separate database activity has been created within the application for the storage of information about recycling centers.
 - The database may be accessed by users or shop owners to add information about recycling centers.
