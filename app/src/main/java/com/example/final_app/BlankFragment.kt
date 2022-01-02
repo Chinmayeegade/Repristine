@@ -1,59 +1,149 @@
 package com.example.final_app
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
+import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [BlankFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class BlankFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank, container, false)
+        val view = inflater.inflate(R.layout.fragment_blank, container, false)
+
+        if (view != null) {
+            init(view)
+        }
+
+        return view
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment BlankFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            BlankFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+    private fun init(view: View?) {
+
+        view?.findViewById<BlankFragment>(R.id.home_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.homeFragment, bundle)
             }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.login_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.loginFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.profile_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.profileFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.ideas_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.reuseFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.articles_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.articlesFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.questions_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.questionFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.answers_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.answersFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.CFP_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.carbonFootprintFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.tracker_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.trackerFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.tips_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.tipsFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.stats_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.statsFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.recycle_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.recycleFragment, bundle)
+            }
+        }
+
+        view?.findViewById<BlankFragment>(R.id.document_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.documentationFragment, bundle)
+            }
+        }
+        view?.findViewById<BlankFragment>(R.id.settings_nav)
+        setOnClickListener {
+            val bundle = bundleOf("App" to "Trial")
+            if (view != null) {
+                Navigation.findNavController(view).navigate(R.id.settingsFragment, bundle)
+            }
+        }
+
+
     }
+
+    private fun setOnClickListener(function: () -> Unit) {
+
+    }
+}
+
+private fun <T> View?.findViewById(homeNav: Int) {
+
 }
