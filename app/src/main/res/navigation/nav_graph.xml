@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.final_app.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_reuseFragment"
+            app:destination="@id/reuseFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_articlesFragment"
+            app:destination="@id/articlesFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_questionFragment"
+            app:destination="@id/questionFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_answersFragment"
+            app:destination="@id/answersFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_carbonFootprintFragment"
+            app:destination="@id/carbonFootprintFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_trackerFragment"
+            app:destination="@id/trackerFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_tipsFragment"
+            app:destination="@id/tipsFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_statsFragment"
+            app:destination="@id/statsFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_recycleFragment"
+            app:destination="@id/recycleFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_documentationFragment"
+            app:destination="@id/documentationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.final_app.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.final_app.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.final_app.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/reuseFragment"
+        android:name="com.example.final_app.ReuseFragment"
+        android:label="ReuseFragment" />
+    <fragment
+        android:id="@+id/articlesFragment"
+        android:name="com.example.final_app.ArticlesFragment"
+        android:label="ArticlesFragment" />
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.example.final_app.QuestionFragment"
+        android:label="QuestionFragment" />
+    <fragment
+        android:id="@+id/answersFragment"
+        android:name="com.example.final_app.AnswersFragment"
+        android:label="AnswersFragment" />
+    <fragment
+        android:id="@+id/carbonFootprintFragment"
+        android:name="com.example.final_app.CarbonFootprintFragment"
+        android:label="CarbonFootprintFragment" />
+    <fragment
+        android:id="@+id/trackerFragment"
+        android:name="com.example.final_app.TrackerFragment"
+        android:label="TrackerFragment" />
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.example.final_app.TipsFragment"
+        android:label="TipsFragment" />
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.example.final_app.StatsFragment"
+        android:label="StatsFragment" />
+    <fragment
+        android:id="@+id/recycleFragment"
+        android:name="com.example.final_app.RecycleFragment"
+        android:label="RecycleFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.final_app.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/documentationFragment"
+        android:name="com.example.final_app.DocumentationFragment"
+        android:label="DocumentationFragment" />
+</navigation>

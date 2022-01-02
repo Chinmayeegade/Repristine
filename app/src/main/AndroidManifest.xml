@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_App">
         <activity
+            android:name=".Navigation_graph"
+            android:exported="true" />
+        <activity
             android:name=".Datbase"
             android:exported="true" />
         <activity
