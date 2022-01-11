@@ -82,7 +82,9 @@ The application comprises 14 models, each targetting a separate functionality. T
 
 ## Application Link & Future Scope:
 Link:  https://github.com/Chinmayeegade/Repristine
-The entire app is still in its development phase. Once all the stated additions are made, it will undergo alpha and beta testings for efficiency, and the application will then be made available to everyone on the Google Play Store.
+The entire app is still in its development phase. 
+
+Once all the stated additions are made, it will undergo alpha and beta testings for efficiency, and the application will then be made available to everyone on the Google Play Store.
 
 
 
