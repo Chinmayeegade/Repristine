@@ -11,7 +11,7 @@ Even though we all know that environmental preservation is each person's fundame
 Although we all aspire to contribute to environmental preservation, we often lack proper information or ideas to lend a helping hand. 
 
 ## Proposed Solution
-Ceasing modernization is definitely not an option, but we can use the fundamentals of growing technology to build a dais where people all around the world can share their ideas about recycling, reducing and reusing their waste, they can help others find solutions to faced environmental problems and can play their part in achieving the global goal and rewilding mother nature. 
+Ceasing modernization is definitely not an option, but we can use the fundamentals of growing technology to build a dias where people all around the world can share their ideas about recycling, reducing and reusing their waste, they can help others find solutions to faced environmental problems and can play their part in achieving the global goal and rewilding mother nature. 
 Repristine is a Kotlin based android application built using Android Studio and aims to function as a social media platform created to ease abiding by the fundamentals of environmental protection for all by providing a stage to share ideas, articles, opinions, and much more!
 The application comprises 14 models, each targetting a separate functionality. They include: 
 - **#1 Home Page 🏠:** The Home Page is the main screen that will be displayed on starting the application. The main elements of the layout comprise the logo, name, and tagline of the app. The bottom side of the page consists of a rotating universal recycling symbol signifying the wait time required for the app to load.
